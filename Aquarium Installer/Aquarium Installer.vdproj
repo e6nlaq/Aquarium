@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_4957DE5AAC084ADBA30BCB2B142A5970"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_B4D08AA10C6057EAD427287E492C93EA"
         "OwnerKey" = "8:_17620160B5994F53B97463B9D59608CD"
         "MsmSig" = "8:_UNDEFINED"
@@ -100,6 +106,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4957DE5AAC084ADBA30BCB2B142A5970"
+            {
+            "SourcePath" = "8:..\\..\\..\\.png&.jpg(画像)\\開発用\\aquarium.ico"
+            "TargetName" = "8:aquarium.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_770E2026D14A4604B0A095E9AEC07961"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B4D08AA10C6057EAD427287E492C93EA"
             {
             "AssemblyRegister" = "3:1"
@@ -169,6 +195,17 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_F025C0E19E6E44779D07CD0AB7BE4F9A"
+                    {
+                    "Name" = "8:Naxy"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_32B920A996B048B89F9EF6C497F2A835"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
         }
@@ -188,7 +225,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Aquarium"
         "ProductCode" = "8:{52295D88-4864-4824-9305-E55F586201FE}"
-        "PackageCode" = "8:{EDBB81B7-6553-4421-BBAD-127F002D1F8F}"
+        "PackageCode" = "8:{995F2F5A-F3F5-40D8-B803-9C7E60C15BEB}"
         "UpgradeCode" = "8:{C18BA5A9-E8B1-46F3-A948-59F6E95C4C86}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -308,6 +345,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C63BD2E8CDA14A78B1A24AE878049EAF"
+            {
+            "Name" = "8:Aquarium"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_17620160B5994F53B97463B9D59608CD"
+            "Folder" = "8:_7BB83CC3B98B4DD7B9B76855AD9F353C"
+            "WorkingFolder" = "8:_770E2026D14A4604B0A095E9AEC07961"
+            "Icon" = "8:_4957DE5AAC084ADBA30BCB2B142A5970"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FC78A4414F7146EEA2B38208BFB3768D"
+            {
+            "Name" = "8:Aquarium"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_17620160B5994F53B97463B9D59608CD"
+            "Folder" = "8:_F025C0E19E6E44779D07CD0AB7BE4F9A"
+            "WorkingFolder" = "8:_770E2026D14A4604B0A095E9AEC07961"
+            "Icon" = "8:_4957DE5AAC084ADBA30BCB2B142A5970"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.URLBox = new System.Windows.Forms.TextBox();
             this.browser = new System.Windows.Forms.WebBrowser();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -42,6 +43,8 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.終了XToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.バージョン情報VToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -134,7 +137,9 @@
             // 
             this.アクションAToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.更新RToolStripMenuItem,
-            this.toolStripSeparator1});
+            this.toolStripSeparator1,
+            this.終了XToolStripMenuItem,
+            this.バージョン情報VToolStripMenuItem});
             this.アクションAToolStripMenuItem.Name = "アクションAToolStripMenuItem";
             this.アクションAToolStripMenuItem.Size = new System.Drawing.Size(135, 34);
             this.アクションAToolStripMenuItem.Text = "アクション(&A)";
@@ -167,6 +172,21 @@
             this.toolStripMenuItem4.Text = "バージョン情報(&V)";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
+            // 終了XToolStripMenuItem
+            // 
+            this.終了XToolStripMenuItem.Name = "終了XToolStripMenuItem";
+            this.終了XToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
+            this.終了XToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.終了XToolStripMenuItem.Text = "終了(&X)";
+            this.終了XToolStripMenuItem.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
+            // バージョン情報VToolStripMenuItem
+            // 
+            this.バージョン情報VToolStripMenuItem.Name = "バージョン情報VToolStripMenuItem";
+            this.バージョン情報VToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.バージョン情報VToolStripMenuItem.Text = "バージョン情報(&V)";
+            this.バージョン情報VToolStripMenuItem.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
@@ -175,6 +195,7 @@
             this.Controls.Add(this.browser);
             this.Controls.Add(this.URLBox);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Aquarium";
@@ -202,6 +223,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem 終了XToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem バージョン情報VToolStripMenuItem;
     }
 }
 
