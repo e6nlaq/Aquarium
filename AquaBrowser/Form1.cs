@@ -69,7 +69,7 @@ namespace AquaBrowser
 
         private void toolStripMenuItem4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Aquarium v1.0.0\n(C) e6nlaq 2023-","バージョン情報",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            MessageBox.Show("Aquarium v1.0.1\n(C) e6nlaq 2023-","バージョン情報",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
 
         private void オンYToolStripMenuItem_Click(object sender, EventArgs e)
