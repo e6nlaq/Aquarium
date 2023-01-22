@@ -1,6 +1,6 @@
 ﻿namespace AquaBrowser
 {
-    partial class Form1
+    partial class window
     {
         /// <summary>
         /// 必要なデザイナー変数です。
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(window));
             this.URLBox = new System.Windows.Forms.TextBox();
             this.browser = new System.Windows.Forms.WebBrowser();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -45,6 +45,10 @@
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.終了XToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.バージョン情報VToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.設定SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.オンYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.オフNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,7 +82,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.移動ToolStripMenuItem1,
             this.履歴HToolStripMenuItem,
-            this.アクションAToolStripMenuItem});
+            this.アクションAToolStripMenuItem,
+            this.設定SToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1595, 38);
@@ -97,14 +102,14 @@
             // uRLUToolStripMenuItem
             // 
             this.uRLUToolStripMenuItem.Name = "uRLUToolStripMenuItem";
-            this.uRLUToolStripMenuItem.Size = new System.Drawing.Size(205, 40);
+            this.uRLUToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
             this.uRLUToolStripMenuItem.Text = "URL(&U)";
             this.uRLUToolStripMenuItem.Click += new System.EventHandler(this.uRLUToolStripMenuItem_Click);
             // 
             // ホームHToolStripMenuItem
             // 
             this.ホームHToolStripMenuItem.Name = "ホームHToolStripMenuItem";
-            this.ホームHToolStripMenuItem.Size = new System.Drawing.Size(205, 40);
+            this.ホームHToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
             this.ホームHToolStripMenuItem.Text = "ホーム(&H)";
             this.ホームHToolStripMenuItem.Click += new System.EventHandler(this.ホームHToolStripMenuItem_Click);
             // 
@@ -121,7 +126,7 @@
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Left)));
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(271, 40);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(315, 40);
             this.toolStripMenuItem1.Text = "戻る";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
@@ -129,7 +134,7 @@
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Right)));
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(271, 40);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(315, 40);
             this.toolStripMenuItem2.Text = "進む";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
@@ -148,14 +153,14 @@
             // 
             this.更新RToolStripMenuItem.Name = "更新RToolStripMenuItem";
             this.更新RToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5;
-            this.更新RToolStripMenuItem.Size = new System.Drawing.Size(232, 40);
+            this.更新RToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
             this.更新RToolStripMenuItem.Text = "更新(&R)";
             this.更新RToolStripMenuItem.Click += new System.EventHandler(this.更新RToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(229, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(312, 6);
             // 
             // toolStripMenuItem3
             // 
@@ -187,7 +192,38 @@
             this.バージョン情報VToolStripMenuItem.Text = "バージョン情報(&V)";
             this.バージョン情報VToolStripMenuItem.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
-            // Form1
+            // 設定SToolStripMenuItem
+            // 
+            this.設定SToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem5});
+            this.設定SToolStripMenuItem.Name = "設定SToolStripMenuItem";
+            this.設定SToolStripMenuItem.Size = new System.Drawing.Size(96, 34);
+            this.設定SToolStripMenuItem.Text = "設定(&S)";
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.オンYToolStripMenuItem,
+            this.オフNToolStripMenuItem});
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(315, 40);
+            this.toolStripMenuItem5.Text = "タイトルの自動更新";
+            // 
+            // オンYToolStripMenuItem
+            // 
+            this.オンYToolStripMenuItem.Name = "オンYToolStripMenuItem";
+            this.オンYToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.オンYToolStripMenuItem.Text = "オン(&Y)";
+            this.オンYToolStripMenuItem.Click += new System.EventHandler(this.オンYToolStripMenuItem_Click);
+            // 
+            // オフNToolStripMenuItem
+            // 
+            this.オフNToolStripMenuItem.Name = "オフNToolStripMenuItem";
+            this.オフNToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.オフNToolStripMenuItem.Text = "オフ(&N)";
+            this.オフNToolStripMenuItem.Click += new System.EventHandler(this.オフNToolStripMenuItem_Click);
+            // 
+            // window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -197,7 +233,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "window";
             this.Text = "Aquarium";
             this.TextChanged += new System.EventHandler(this.Form1_TextChanged);
             this.menuStrip1.ResumeLayout(false);
@@ -225,6 +261,10 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem 終了XToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem バージョン情報VToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 設定SToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem オンYToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem オフNToolStripMenuItem;
     }
 }
 
