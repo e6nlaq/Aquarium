@@ -135,8 +135,6 @@
             this.アクションAToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.更新RToolStripMenuItem,
             this.toolStripSeparator1,
-            this.toolStripMenuItem3,
-            this.toolStripMenuItem4});
             this.アクションAToolStripMenuItem.Name = "アクションAToolStripMenuItem";
             this.アクションAToolStripMenuItem.Size = new System.Drawing.Size(135, 34);
             this.アクションAToolStripMenuItem.Text = "アクション(&A)";
@@ -179,7 +177,6 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Aquarium";
             this.TextChanged += new System.EventHandler(this.Form1_TextChanged);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
