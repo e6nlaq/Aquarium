@@ -94,14 +94,14 @@
             // uRLUToolStripMenuItem
             // 
             this.uRLUToolStripMenuItem.Name = "uRLUToolStripMenuItem";
-            this.uRLUToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.uRLUToolStripMenuItem.Size = new System.Drawing.Size(205, 40);
             this.uRLUToolStripMenuItem.Text = "URL(&U)";
             this.uRLUToolStripMenuItem.Click += new System.EventHandler(this.uRLUToolStripMenuItem_Click);
             // 
             // ホームHToolStripMenuItem
             // 
             this.ホームHToolStripMenuItem.Name = "ホームHToolStripMenuItem";
-            this.ホームHToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.ホームHToolStripMenuItem.Size = new System.Drawing.Size(205, 40);
             this.ホームHToolStripMenuItem.Text = "ホーム(&H)";
             this.ホームHToolStripMenuItem.Click += new System.EventHandler(this.ホームHToolStripMenuItem_Click);
             // 
@@ -118,7 +118,7 @@
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Left)));
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(315, 40);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(271, 40);
             this.toolStripMenuItem1.Text = "戻る";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
@@ -126,7 +126,7 @@
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Right)));
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(315, 40);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(271, 40);
             this.toolStripMenuItem2.Text = "進む";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
@@ -134,7 +134,7 @@
             // 
             this.アクションAToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.更新RToolStripMenuItem,
-            this.toolStripSeparator1,
+            this.toolStripSeparator1});
             this.アクションAToolStripMenuItem.Name = "アクションAToolStripMenuItem";
             this.アクションAToolStripMenuItem.Size = new System.Drawing.Size(135, 34);
             this.アクションAToolStripMenuItem.Text = "アクション(&A)";
@@ -143,14 +143,14 @@
             // 
             this.更新RToolStripMenuItem.Name = "更新RToolStripMenuItem";
             this.更新RToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5;
-            this.更新RToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.更新RToolStripMenuItem.Size = new System.Drawing.Size(232, 40);
             this.更新RToolStripMenuItem.Text = "更新(&R)";
             this.更新RToolStripMenuItem.Click += new System.EventHandler(this.更新RToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(312, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(229, 6);
             // 
             // toolStripMenuItem3
             // 
@@ -177,6 +177,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
+            this.Text = "Aquarium";
             this.TextChanged += new System.EventHandler(this.Form1_TextChanged);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
